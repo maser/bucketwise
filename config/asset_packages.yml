@@ -1,0 +1,16 @@
+--- 
+javascripts: 
+- base: 
+  - events
+  - accounts
+  - statements
+  - money
+  - buckets
+  - tags
+  - filters
+  - application
+  - calendar_date_select/calendar_date_select
+stylesheets: 
+- base: 
+  - money
+  - calendar_date_select/default
