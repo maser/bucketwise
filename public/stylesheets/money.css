@@ -32,7 +32,7 @@ div#header {
 div#header h1 {
   font-size: 2em;
   text-align: left;
-  width: 700px;
+  width: 450px;
   color: #073;
   margin: 0 auto;
   padding: 0.5em 0 0 0;
@@ -58,8 +58,9 @@ div#header h1 span.actions a:hover {
 
 div#container {
   text-align: left;
-  width: 700px;
+  width: 450px;
   margin: 0 auto;
+  padding: 0 40px;
 }
 
 div#version {
