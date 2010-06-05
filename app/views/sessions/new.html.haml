@@ -14,10 +14,12 @@
         .notice You have been logged out.
       - form_tag(:session, :url => session_path) do
         %p
-          User name:
+          = label_tag :user_name, "User name:"
+          %br
           = text_field_tag :user_name
         %p
-          Password:
+          = label_tag :password, "Password:"
+          %br
           = password_field_tag :password
         %p= submit_tag "Log into BucketWise"
 
