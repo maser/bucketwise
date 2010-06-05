@@ -4,7 +4,9 @@
     %meta{"http-equiv" => "Content-Type", :content => "text/html; charset=utf-8"}/
     %title BucketWise
     = stylesheet_link_tag "money"
-    = javascript_include_tag :all
+    = javascript_include_tag "events", "accounts", "statements", "money", "buckets", "tags", "filters", "application"
+    = javascript_include_tag "http://ajax.googleapis.com/ajax/libs/prototype/1.6.1.0/prototype.js"
+    = javascript_include_tag "http://ajax.googleapis.com/ajax/libs/scriptaculous/1.8.3/scriptaculous.js"
     = calendar_date_select_includes "default"
 
   %body
